@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page in HTML with CSS Code Example</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylelogin.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"><link rel="stylesheet" href="./style.css">
+<style>
+    .jumbotron {
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+</style>
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+		<link rel="stylesheet" href="css/style.css">
+<link href="https://github.com/Darshan110801/VNIT-Astronomy-Club-Website/blob/master/static/images/Astro1%20-%20Copy.jpg?raw=true" rel="shortcut icon" />
+</head>
+<body style="font-family: 'Roboto', sans-serif !important; background-color: #fff;">
+
+    <script async="" onload="externalsRegistry.lodash.onload()" src="https://static.parastorage.com/unpkg/lodash@4.17.21/lodash.min.js"></script>
+      
+
+  
+
+    <script src="https://static.parastorage.com/unpkg/core-js-bundle@3.2.1/minified.js" nomodule=""></script>
+    <script src="https://static.parastorage.com/unpkg/focus-within-polyfill@5.0.9/dist/focus-within-polyfill.js" nomodule=""></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=fetch" nomodule=""></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg rounded" style="background-color: #ffffff !important">
+        <a class="navbar-brand" href="/"> <img class="img-fluid" href="/" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghy8zSJX0q6CR_yg8QW9iEesyIFCW1xkI2Y4sgg1xs5jJPTJJR3HL5S-HoItHheh3Hv5RO2IcW_MZI2R-fW7vyuK2t5ykaiRFnpv0wQL9VX8EI6OD7uLnvnBBskSEKTpFJnX8ori2UkygPY-NJsTQZAe2y7QZgLXj7-d1OwslENgjaQTcCDmxo1eJe_Q/s1365/logo_brand.png" alt="Logo_branding" height="150px" width="250px">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+    <li class="nav-item active">
+    <a class="nav-link overlay-rgba(18, 102, 241, 0.5)" href="C:\Astronomy_Club_VNIT_filebase-main\index.html"><strong style="color: rgb(0, 0, 0)"><b>Home </b></strong
+                        ><span class="sr-only"></span
+                        ></a>
+    </li>
+    <li class="nav-item active">
+    <a class="nav-link overlay-rgba(18, 102, 241, 0.5)" href="/about"><strong style="color: rgb(0, 0, 0); font-weight: 700!important;"><b>About Us</b></strong
+                        ><span class="sr-only"></span
+                        ></a>
+    </li>
+    <li class="nav-item active">
+    <a class="nav-link" href="/events"><strong style="color: rgb(0, 0, 0)"><b>Events</b></strong
+                        ><span class="sr-only"></span
+                        ></a>
+    </li>
+    <li class="nav-item active">
+    <a class="nav-link" href="/articles"><strong style="color: rgb(0, 0, 0)"><b>Articles</b></strong
+                        ><span class="sr-only"></span
+                        ></a>
+    </li>
+    <li class="nav-item active">
+    <a class="nav-link" href="https://eshanojas2916.github.io/Solar_System/index.html"><strong style="color: rgb(0, 0, 0)"><b>Solar System</b></strong
+                        ><span class="sr-only"></span
+                        ></a>
+    </li>
+    <li class="nav-item active">
+    <a class="nav-link" href="/apod"><strong style="color: rgb(0, 0, 0)"><b>Astro-resources</b></strong
+                        ><span class="sr-only"></span
+                        ></a>
+    </li>
+    <li class="nav-item active">
+    <a class="nav-link" href="https://darshan110801.github.io/Astro-quiz/" style="color: #000"><b>Astro-quiz</b>
+                        <span class="sr-only"></span
+                        ></a>
+    </li>
+    <li class="nav-item active">
+    <a class="nav-link" href="/great_astronomers">
+    <strong style="color: rgb(0, 0, 0)"><b>Great Astronomers</b></strong
+                            ><span class="sr-only"></span
+                        ></a>
+    </li>
+    
+    </ul>
+    </div>
+    </nav>
+<!-- partial:index.partial.html -->
+<div class="box-form scroll shadow-lg">
+	<div class="left">
+		<div class="overlay">
+		<h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Welcome Back</h1>
+		<p>***This login feature is strictly restricted to the members of The Astronomy club, VNIT only.</p>
+		<span>
+			<p>Login with social media</p>
+			<a href="#"><i class="fa fa-google" style="background-color: #F65314;" aria-hidden="true"></i> Login with Google</a>
+			<a href="#"><i class="fa fa-github" aria-hidden="true"></i> Login with Github</a>
+		</span>
+		</div>
+	</div>
+
+	
+		<div class="right">
+            <br>
+		<h5>Login</h5>
+        <br>
+        <br>
+		<div class="inputs">
+			<input type="text" placeholder="Username">
+			<br>
+			<input type="password" placeholder="Password">
+		</div>
+			
+			<br>		<p>Don't have an account? <a href="#">Create Your Account</a>, it takes less than a minute</p>
+            <br>
+			
+		<div class="remember-me--forget-password">
+				<!-- Angular -->
+	<label>
+		<input type="checkbox" name="item" checked/>
+		<span class="text-checkbox">Remember me</span>
+	</label>
+			<p>forget password?</p>
+		</div>
+			
+			<br>
+			<button>Login</button>
+	</div>
+	
+</div>
+
+<!-- partial -->
+  
+</body>
+</html>
